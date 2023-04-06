@@ -1,4 +1,4 @@
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 $(window).on('scroll', function() {
   var triggerElement = $('.trigger-element');
@@ -10,4 +10,13 @@ $(window).on('scroll', function() {
     triggerElement.addClass('animate__animated animate__fadeIn');
   }
 });
+
+
+// < !--Example JavaScript code for animating the container element on load-- >
+
+  $(document).ready(function() {
+    // Add animate__animated class to the container element on load
+    $('.my-container').addClass('animate__animated');
+  });
+
 

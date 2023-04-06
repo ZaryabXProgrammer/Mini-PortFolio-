@@ -11,6 +11,7 @@ h3,
 h4,
 h5 {
     font-family: 'Baloo Bhai', cursive;
+    font-weight: bold;
 }
 /* text running */
 
@@ -326,6 +327,7 @@ nav {
         flex-wrap: wrap;
         justify-content: center;
         padding: 50px 20px;
+        visibility: visible;
     }
 
     .card {
