@@ -4,21 +4,31 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3,h4,h5{
-    font-family: 'Baloo Bhai', cursive;
-    }
 
-.navbar{
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Baloo Bhai', cursive;
+}
+/* text running */
+
+
+/* navbar */
+
+.navbar {
     position: sticky;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(to right, #24c6dc, #514a9d);
+    background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
     color: white;
     padding: 10px;
-    
+
 }
 
 
@@ -151,12 +161,13 @@ nav {
 
 
 .hero {
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px;
 
-    background: linear-gradient(to right, #24c6dc, #514a9d);
+    background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
 }
 
 .hero-content {
@@ -225,7 +236,7 @@ nav {
 /* card */
 
 .card-section {
-       
+
 
 
     display: flex;
@@ -323,19 +334,20 @@ nav {
     }
 }
 
-.myPerks{
-    background: linear-gradient(to right, #24c6dc, #514a9d);
-    
+.myPerks {
+    background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+
 
 }
-.newbox{
+
+.newbox {
     margin-top: 30px;
 }
 
 /* education */
 
 .educationSection {
- 
+
     padding: 60px 0;
 }
 
@@ -393,16 +405,18 @@ nav {
 }
 
 @media (max-width: 768px) {
+
     /* styles for small screens */
-   .educationCards{
+    .educationCards {
         display: flex;
         flex-wrap: wrap;
-        
-   }
-   .educationCard{
-    margin-top: 20px;
-   }
-    
+
+    }
+
+    .educationCard {
+        margin-top: 20px;
+    }
+
 }
 
 
@@ -412,11 +426,10 @@ nav {
 
 /* Featured Posts section styles */
 .featured-posts {
-    /* padding: 80px 0; */
-    margin-top: 35px;
-        background: linear-gradient(to right, #24c6dc, #514a9d);
-   
-    
+    padding: 20px;
+    background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%);
+
+
 }
 
 .section-title {
